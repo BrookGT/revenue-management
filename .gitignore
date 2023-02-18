@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+coverage/
+.idea/
+.vscode
+.env.local
+npm-debug.log*
+yarn-error.log*
+*.zip
+
+# Large marketing assets kept locally but excluded from git and Docker build context
+public/v3/
+public/v2/
+public/codecayonImage/
+public/images/
