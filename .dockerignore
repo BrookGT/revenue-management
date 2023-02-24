@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+coverage
+.git
+tests
+jest.config.js
+scripts
+*.log
+.env
+.env.*
+!.env.example
+.idea
+.vscode
+*.zip
+.swc
