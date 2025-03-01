@@ -8,19 +8,19 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center bg-[#FDF7FF] p-6">
+    <div className="min-h-screen flex flex-col items-center bg-base-100 p-6">
       
       {/* Hero Section */}
       <main className="w-full max-w-6xl flex flex-col md:flex-row items-center text-center md:text-left mt-12">
         {/* Text Section */}
         <div className="md:w-1/2 p-6">
-          <h2 className="text-5xl font-bold text-[#1E40AF] leading-tight">
+          <h2 className="text-5xl font-bold text-primary leading-tight">
             Find Your Dream Home
           </h2>
-          <p className="text-lg text-gray-600 mt-3">
+          <p className="text-lg text-neutral mt-3">
             Discover the best rental options tailored to your needs, with seamless booking and chat features.
           </p>
-          <Link href="/houses" className="mt-6 inline-block px-6 py-3 bg-[#1E40AF] text-white text-lg font-medium rounded-full hover:opacity-80">
+          <Link href="/houses" className="mt-6 inline-block px-6 py-3 bg-primary text-base-100 text-lg font-medium rounded-full hover:opacity-80">
             Browse Houses
           </Link>
         </div>
