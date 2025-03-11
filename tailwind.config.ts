@@ -15,12 +15,12 @@ export default {
                     secondary: "#4F46E5", // Purple
                     accent: "#FACC15", // Yellow
                     neutral: "#1E293B", // Dark Gray
-                    "base-100": "#FDF7FF", // Light Gray
+                    "base-100": "#CCD1FF", // Light Gray
                     info: "#3B82F6", // Blue
                     success: "#22C55E", // Green
                     warning: "#F59E0B", // Yellow
                     error: "#EF4444", // Red
-                    nav: "#FFFFFF", // White
+                    
                 },
                 dark: {
                     primary: "#4F46E5",   // Purple
@@ -32,7 +32,6 @@ export default {
                     success: "#22C55E", // Green
                     warning: "#F59E0B", // Yellow
                     error: "#EF4444", // Red
-                    nav: "#808080", // Dark Gray
                 },
             },
         ],
