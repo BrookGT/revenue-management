@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center bg-base-100 p-6">
+    <div>
       
       {/* Hero Section */}
       <main className="w-full max-w-6xl flex flex-col md:flex-row items-center text-center md:text-left mt-12">

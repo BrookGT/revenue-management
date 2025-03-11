@@ -39,13 +39,12 @@ export default function RootLayout({
 
         {/* Navbar */}
         <header className="w-full max-w-6xl mx-auto flex justify-between items-center py-4 px-6 bg-nav shadow-md rounded-xl mt-4">
-          <h1 className="text-2xl font-bold text-[#1E40AF]">🏠 Rent Bridge</h1>
+          <h1 className="text-2xl font-bold text-[info]">🏠 Rent Bridge</h1>
           <nav className="space-x-6 flex items-center">
-            <Link href="/houses" className="text-[#1E40AF] font-medium hover:underline">Why RentBridge</Link>
-            <Link href="/pricing" className="text-[#1E40AF] font-medium hover:underline">Pricing</Link>
-            <Link href="/chat" className="text-[#1E40AF] font-medium hover:underline">Chat</Link>
-            <Link href="/account" className="text-[#1E40AF] font-medium hover:underline">Log in</Link>
-            <Link href="/signup" className="px-4 py-2 bg-[#1E40AF] text-white font-medium rounded-full hover:opacity-80">Sign Up</Link>
+            <Link href="/houses" className="text-[info] font-medium hover:underline">Houses</Link>
+            <Link href="/chat" className="text-[info] font-medium hover:underline">Chat</Link>
+            <Link href="/account" className="text-[info] font-medium hover:underline">Account</Link>
+            <Link href="/signup" className="px-4 py-2 bg-secondary text-white font-medium rounded-full hover:opacity-80">Sign Up / Log in</Link>
             
             {/* Theme Toggle Button */}
             <button
@@ -58,7 +57,7 @@ export default function RootLayout({
         </header>
 
         {/* Page Content */}
-        <main className="w-full max-w-6xl mx-auto p-6">{children}</main>
+        <main className="min-h-screen flex flex-col items-center bg-base p-6">{children}</main>
       </body>
     </html>
   );
