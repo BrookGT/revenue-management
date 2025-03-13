@@ -8,7 +8,7 @@ export default {
     ],
     plugins: [require("daisyui")],
     daisyui: {
-        themes: [
+        themes: [ 
             {
                 light: {
                     primary: "#1E40AF", // Blue

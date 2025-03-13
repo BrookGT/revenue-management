@@ -38,7 +38,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${geistMono.variable} antialiased bg-base-100 text-neutral`}>
 
         {/* Navbar */}
-        <header className="w-full max-w-6xl mx-auto flex justify-between items-center py-4 px-6 bg-white dark:bg-gray-600 shadow-md rounded-xl mt-4">
+        <header className="w-full sticky top-2 left-0 right-0 z-50 max-w-6xl mx-auto flex justify-between items-center py-3 px-6 bg-white shadow-md rounded-xl mt-4">
           <h1 className="text-2xl font-bold text-[info]">🏠 Rent Bridge</h1>
           <nav className="space-x-6 flex items-center">
             <Link href="/houses" className="text-[info] font-medium hover:underline">Houses</Link>

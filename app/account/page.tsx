@@ -17,10 +17,10 @@ export default function Account() {
           className="w-24 h-24 rounded-full border-4 border-primary"
         />
         <div>
-          <h2 className="text-3xl font-bold text-primary">John Doe</h2>
-          <p className="text-gray-600 dark:text-gray-300">johndoe@example.com</p>
+          <h2 className="text-3xl font-bold text-primary">Biruk GT</h2>
+          <p className="text-gray-600 dark:text-gray-300">Bura@example.com</p>
           <p className="mt-2 text-gray-500 dark:text-gray-400">
-            Web developer | Tech enthusiast | Traveler
+            Total post : 2 | Contacted by : 5 | Rating : 4.5
           </p>
         </div>
       </div>
@@ -40,12 +40,12 @@ export default function Account() {
         <h3 className="text-2xl font-semibold text-primary">Your Posts</h3>
         <div className="mt-4 space-y-4">
           <div className="p-4 bg-gray-100 dark:bg-gray-700 rounded-lg shadow">
-            <h4 className="text-lg font-bold text-neutral">My First Post</h4>
-            <p className="text-sm text-gray-500">March 10, 2025</p>
+            <h4 className="text-lg font-bold text-neutral text-white">Apartment in Adama</h4>
+            <p className="text-sm text-gray-300">March 10, 2025</p>
           </div>
           <div className="p-4 bg-gray-100 dark:bg-gray-700 rounded-lg shadow">
-            <h4 className="text-lg font-bold text-neutral">React vs Next.js</h4>
-            <p className="text-sm text-gray-500">March 5, 2025</p>
+            <h4 className="text-lg font-bold text-neutral text-white">Office in Addis</h4>
+            <p className="text-sm text-gray-300">March 5, 2025</p>
           </div>
         </div>
       </div>
